@@ -1,0 +1,15 @@
+// ==========================================
+// Người phụ trách: Bạn A (DevOps & Hạ tầng)
+// Mô tả: Định nghĩa luồng CI/CD Pipeline với Jenkins
+// ==========================================
+
+pipeline {
+    agent any
+    stages {
+        stage('TODO: Build & Test') {
+            steps {
+                echo 'Khu vực viết pipeline sẽ được cập nhật ở đây...'
+            }
+        }
+    }
+}
